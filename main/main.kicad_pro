@@ -334,6 +334,10 @@
     [
       "a01d8da6-2479-4065-a833-b9d53f235acc",
       "Programmable Clock Generator"
+    ],
+    [
+      "b73d6267-4c38-4374-a218-7c94747b48ea",
+      "Keyboard"
     ]
   ],
   "text_variables": {}
