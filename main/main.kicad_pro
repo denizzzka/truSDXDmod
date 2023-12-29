@@ -342,6 +342,10 @@
     [
       "b4180b37-39ca-45dc-9531-7e26f2061016",
       "Display ILI9341"
+    ],
+    [
+      "c60e9004-e534-4568-b2af-6f7f65cfe3f5",
+      "Power supply"
     ]
   ],
   "text_variables": {}
