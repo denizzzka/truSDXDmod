@@ -1234,6 +1234,7 @@
   )
 
   (no_connect (at 96.52 101.6) (uuid 3ee9e8d1-2ae7-4555-9a26-9855a027fb70))
+  (no_connect (at 96.52 109.22) (uuid 416dfc6e-443f-4de4-bc15-03d0db3ed9b7))
   (no_connect (at 233.68 102.87) (uuid 4bfb8b40-b04e-4041-bc53-c5150ef6e5d1))
   (no_connect (at 233.68 95.25) (uuid 5319fbaa-7bc3-4164-bef6-2fa67012a631))
   (no_connect (at 233.68 105.41) (uuid 886d357b-a547-413c-b8b2-4156c14d982e))
@@ -1241,6 +1242,8 @@
   (no_connect (at 233.68 97.79) (uuid a40ff76a-904d-4278-89f4-c7b1e5f1ce49))
   (no_connect (at 96.52 71.12) (uuid abca66d5-eb0a-4dc2-9619-91309125921d))
   (no_connect (at 233.68 100.33) (uuid ce5a82b5-a81e-4189-9618-4ac00f3b5c4d))
+  (no_connect (at 96.52 106.68) (uuid dffe1bb2-ff40-4b6d-a18f-75afb0c2a2fa))
+  (no_connect (at 96.52 76.2) (uuid f5fc74f4-1747-4614-9fd7-ae25eaa63486))
 
   (bus_entry (at 67.31 114.3) (size -2.54 -2.54)
     (stroke (width 0) (type default))
@@ -1762,6 +1765,12 @@
   (wire (pts (xy 182.88 109.22) (xy 182.88 111.76))
     (stroke (width 0) (type default))
     (uuid fd9dfc7d-0682-47ee-91e3-3c16c19b018f)
+  )
+
+  (text "TODO: PA0 is WKUP pin and will be used in the\nfuture, leave it unused"
+    (at 144.78 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fa3a0b49-8bf1-444f-9555-6947c1a9a669)
   )
 
   (label "MCK_EXT" (at 63.5 68.58 0) (fields_autoplaced)
