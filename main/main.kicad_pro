@@ -338,6 +338,10 @@
     [
       "b73d6267-4c38-4374-a218-7c94747b48ea",
       "Keyboard"
+    ],
+    [
+      "b4180b37-39ca-45dc-9531-7e26f2061016",
+      "Display ILI9341"
     ]
   ],
   "text_variables": {}
