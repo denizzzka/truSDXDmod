@@ -366,6 +366,10 @@
     [
       "071bf193-b8ce-446c-a6f0-4f73f2e6bcab",
       "Modulator"
+    ],
+    [
+      "b97f3a3e-dcf9-4b50-be6e-f4edc7b33ba9",
+      "Mixer (Detector)"
     ]
   ],
   "text_variables": {}

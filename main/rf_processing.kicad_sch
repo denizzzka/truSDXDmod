@@ -749,41 +749,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 193.04 57.15 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a581ee5a-32c0-4d79-bac1-750b2b8eb47a)
-    (property "Reference" "R1" (at 193.04 50.8 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10" (at 193.04 53.34 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 193.04 58.928 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.04 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid e89fb0fb-a7b6-411c-9573-01e35ebdfaa7))
-    (pin "1" (uuid bfe9ac33-b5cf-4918-a2fe-98fac40523ed))
-    (instances
-      (project "main"
-        (path "/cb08c644-d155-44e5-86e1-31645eace055"
-          (reference "R1") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/6911640e-2f8b-4689-850c-33e2fd821898"
-          (reference "R4") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8"
-          (reference "R19") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/071bf193-b8ce-446c-a6f0-4f73f2e6bcab"
-          (reference "R33") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+3.3V") (at 193.04 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6fcee85-d0f9-41c2-95f6-c247ce0a8146)
@@ -836,41 +801,6 @@
         )
         (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8"
           (reference "C53") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 193.04 62.23 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e29dd806-e83f-471c-89ee-affd9a8d367c)
-    (property "Reference" "R1" (at 193.04 66.04 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10" (at 193.04 68.58 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 193.04 60.452 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.04 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid ecca13cd-e90e-4348-98a8-069a5000ff73))
-    (pin "1" (uuid 25cd22d6-806e-464f-bdfb-163dc5c6b5d2))
-    (instances
-      (project "main"
-        (path "/cb08c644-d155-44e5-86e1-31645eace055"
-          (reference "R1") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/6911640e-2f8b-4689-850c-33e2fd821898"
-          (reference "R4") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8"
-          (reference "R20") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/071bf193-b8ce-446c-a6f0-4f73f2e6bcab"
-          (reference "R34") (unit 1)
         )
       )
     )
@@ -990,6 +920,23 @@
       (project "main"
         (path "/cb08c644-d155-44e5-86e1-31645eace055" (page "9"))
         (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 235.585 70.485) (size 26.67 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b97f3a3e-dcf9-4b50-be6e-f4edc7b33ba9)
+    (property "Sheetname" "Mixer (Detector)" (at 235.585 69.7734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mixer.kicad_sch" (at 235.585 96.4696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "main"
+        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8" (page "12"))
       )
     )
   )
