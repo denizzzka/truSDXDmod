@@ -520,6 +520,10 @@
     (uuid fbd305f4-a9a2-4594-a664-df67b415fae1)
   )
 
+  (text "Phases:\n0	1	2	3\nL-	R-	R+	L+\nL+	R+	R-	L-" (at 123.19 140.335 0)
+    (effects (font (size 2.5 2.5)) (justify left bottom))
+    (uuid 19848604-ee56-44d1-9c0a-37031ad47f59)
+  )
   (text "TODO:\nВопрос:\nНужны ли разделительные конденсаторы\n(C46 и прочие) на большую ёмкость?"
     (at 52.07 43.18 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
