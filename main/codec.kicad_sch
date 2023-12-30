@@ -1130,7 +1130,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 32aa9e84-65fb-4f2b-a5ec-75cc09bcb88c)
   )
-  (label "scl" (at 91.44 116.84 0)
+  (label "scl" (at 91.44 116.84 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5729895d-23df-4fac-9003-3deee31ddc3b)
   )
