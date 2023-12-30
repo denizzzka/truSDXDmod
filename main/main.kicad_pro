@@ -356,8 +356,16 @@
       "Filters"
     ],
     [
-      "4386b0ca-82ed-4c8c-8e1a-04decc87d427",
+      "6911640e-2f8b-4689-850c-33e2fd821898",
       "Filter selector"
+    ],
+    [
+      "f348e705-e1f2-401a-94bd-812b815f83a8",
+      "RF Processing"
+    ],
+    [
+      "071bf193-b8ce-446c-a6f0-4f73f2e6bcab",
+      "Modulator"
     ]
   ],
   "text_variables": {}
