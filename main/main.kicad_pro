@@ -370,6 +370,10 @@
     [
       "b97f3a3e-dcf9-4b50-be6e-f4edc7b33ba9",
       "Mixer (Detector)"
+    ],
+    [
+      "8653829a-ea60-4c18-8b01-1eb920d43d9e",
+      "Power SWR Bridge"
     ]
   ],
   "text_variables": {}
