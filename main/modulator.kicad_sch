@@ -533,7 +533,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1ebb13c0-849e-43c1-b44f-f09ea4cfaae6)
   )
-  (text "Based onfrom Selenite Lite SDR HF Transceiver by Dmitrii Rudnev"
+  (text "Based on Selenite Lite SDR HF Transceiver by Dmitrii Rudnev"
     (at 82.55 25.4 0)
     (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid 77ad9ff9-597b-401f-83fe-383125eceeda)
