@@ -533,6 +533,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1ebb13c0-849e-43c1-b44f-f09ea4cfaae6)
   )
+  (text "TODO: Необходимость этих резисторов и их номинал под вопросом"
+    (at 95.885 52.07 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5c5aadcb-c92d-4840-8d65-b050baea2cba)
+  )
   (text "Based on Selenite Lite SDR HF Transceiver by Dmitrii Rudnev"
     (at 82.55 25.4 0)
     (effects (font (size 2.5 2.5)) (justify left bottom))
