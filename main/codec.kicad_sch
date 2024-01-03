@@ -1274,6 +1274,11 @@
     (uuid a29f62bd-94af-4aa8-abe3-67827299d2a6)
   )
 
+  (text "FIXME: Полная фигня с\nподключением наушников\nПеределать!"
+    (at 203.2 122.555 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 010e170f-924e-4832-921b-494b8119ab98)
+  )
   (text "FIXME: Полная фигня с\nподключением микрофона\nПеределать!"
     (at 48.26 146.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
