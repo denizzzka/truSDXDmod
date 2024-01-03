@@ -1274,6 +1274,11 @@
     (uuid a29f62bd-94af-4aa8-abe3-67827299d2a6)
   )
 
+  (text "FIXME: Полная фигня с\nподключением микрофона\nПеределать!"
+    (at 48.26 146.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1a6be395-db8a-44dd-93a7-cc6fa4b64f23)
+  )
   (text "TODO: задействовать кнопку гарнитуры" (at 199.39 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 34faaa38-c740-465e-8c55-99a903336708)
