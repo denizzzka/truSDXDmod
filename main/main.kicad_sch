@@ -2145,9 +2145,20 @@
     (uuid fd9dfc7d-0682-47ee-91e3-3c16c19b018f)
   )
 
+  (arc (start 205.1048 69.85) (mid 199.3183 55.88) (end 205.1048 41.91)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 31b33a17-c635-4cfd-bbdb-1ded66a9b81b)
+  )
+
   (text "TODO: rewire to SWD standard" (at 41.91 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 80879510-fffd-4b4d-a1ee-a240c0c982fe)
+  )
+  (text "FIXME: использовать инвертор чтобы\nизбежать одновременного включения"
+    (at 200.025 41.275 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 908b76c7-8bff-4e57-9530-9a1c1eb1349c)
   )
 
   (label "MCK_EXT" (at 63.5 68.58 0) (fields_autoplaced)
