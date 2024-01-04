@@ -2272,6 +2272,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 908b76c7-8bff-4e57-9530-9a1c1eb1349c)
   )
+  (text "TODO:\nПереподключить EEPROM как на Black Pill\nЗаменить на FRAM"
+    (at 164.465 159.385 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9c568a8a-44fa-4876-a307-71faf7282f62)
+  )
 
   (label "MCK_EXT" (at 63.5 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
