@@ -761,11 +761,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2332fa5b-ef77-4d52-a799-00ea06207a57)
   )
-  (text "TODO: Мощные компоненты!\nУточнить при назначении посадочных мест!"
-    (at 131.445 45.72 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 78b385e9-53ce-466d-91c2-3dad7706ebec)
-  )
   (text "\"Stockton bridge\"\nfrom (tr)uSDX RF board" (at 129.54 23.495 0)
     (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid d7125c81-2ffb-4667-8920-456393efa326)
