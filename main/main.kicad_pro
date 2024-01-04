@@ -376,6 +376,10 @@
     [
       "8653829a-ea60-4c18-8b01-1eb920d43d9e",
       "Power SWR Bridge"
+    ],
+    [
+      "83cdc139-f19f-4702-871a-4a75f5a0616b",
+      "Power Amplifier"
     ]
   ],
   "text_variables": {}
