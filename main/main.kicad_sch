@@ -3688,7 +3688,7 @@
     (property "Datasheet" "~" (at 263.525 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "purpose" "Headset" (at 267.335 160.655 0)
+    (property "purpose" "Telegraph key" (at 267.335 160.655 0)
       (effects (font (size 1.27 1.27)))
     )
     (pin "R3" (uuid a2216eb9-d593-4f56-b6af-00b3a0f3bc60))
