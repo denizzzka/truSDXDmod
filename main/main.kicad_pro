@@ -376,6 +376,10 @@
     [
       "83cdc139-f19f-4702-871a-4a75f5a0616b",
       "Power Amplifier"
+    ],
+    [
+      "1c6ca288-8a52-4fd4-8d7a-75fe48075adc",
+      "30 MHz LPF"
     ]
   ],
   "text_variables": {}
