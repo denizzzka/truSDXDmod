@@ -381,6 +381,10 @@
     [
       "1c6ca288-8a52-4fd4-8d7a-75fe48075adc",
       "30 MHz LPF"
+    ],
+    [
+      "6adb75eb-c8b3-4528-8354-bbd7827d10ad",
+      "DC-DC Booster"
     ]
   ],
   "text_variables": {}

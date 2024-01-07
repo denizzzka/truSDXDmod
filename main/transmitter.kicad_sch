@@ -816,11 +816,11 @@
         )
       )
     )
-    (symbol "power:+VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -2.54 0)
+    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+VDC" (at 0 6.35 0)
+      (property "Value" "+12V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -832,42 +832,38 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+VDC\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+VDC_0_1"
+      (symbol "+12V_0_1"
         (polyline
           (pts
-            (xy -1.143 3.175)
-            (xy 1.143 3.175)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
+            (xy -0.762 1.27)
+            (xy 0 2.54)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 2.032)
-            (xy 0 4.318)
+            (xy 0 0)
+            (xy 0 2.54)
           )
-          (stroke (width 0.508) (type default))
+          (stroke (width 0) (type default))
           (fill (type none))
         )
-        (circle (center 0 3.175) (radius 1.905)
-          (stroke (width 0.254) (type default))
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "+VDC_1_1"
+      (symbol "+12V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+VDC" (effects (font (size 1.27 1.27))))
+          (name "+12V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1405,6 +1401,31 @@
         )
         (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/83cdc139-f19f-4702-871a-4a75f5a0616b"
           (reference "C81") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 90.805 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0ed05631-752b-48fa-8cf9-69b909e3d292)
+    (property "Reference" "#PWR046" (at 90.805 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 90.805 38.1 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.805 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.805 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6ea0067b-ba4c-487f-80ab-205796371fb0))
+    (instances
+      (project "main"
+        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/83cdc139-f19f-4702-871a-4a75f5a0616b"
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -2206,37 +2227,6 @@
     )
   )
 
-  (symbol (lib_id "power:+VDC") (at 220.345 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 98d68877-320f-42ff-bd2c-83c3cfbebcad)
-    (property "Reference" "#PWR019" (at 220.345 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+VDC" (at 220.345 60.325 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 220.345 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 220.345 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3a527d3e-58dc-48d4-946f-7f9ac1151515))
-    (instances
-      (project "main"
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/e511764a-2dd7-4601-8d00-331d6dbffa9f"
-          (reference "#PWR019") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055"
-          (reference "#PWR044") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/83cdc139-f19f-4702-871a-4a75f5a0616b"
-          (reference "#PWR0111") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 103.505 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a3a3561-c5b2-4e96-9b7d-a14b227e0787)
@@ -2450,6 +2440,31 @@
         )
         (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/83cdc139-f19f-4702-871a-4a75f5a0616b"
           (reference "C77") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 220.345 67.945 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c1ebb292-e398-4d23-b07b-c2524730674f)
+    (property "Reference" "#PWR0111" (at 220.345 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 220.345 62.865 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 220.345 67.945 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 220.345 67.945 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a0e18103-a349-4af2-9187-937aca85523b))
+    (instances
+      (project "main"
+        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/83cdc139-f19f-4702-871a-4a75f5a0616b"
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -2972,37 +2987,6 @@
         )
         (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/83cdc139-f19f-4702-871a-4a75f5a0616b"
           (reference "#PWR0106") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+VDC") (at 90.805 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid eb8458ed-2bbd-4612-bd71-ec6dc0158fc5)
-    (property "Reference" "#PWR019" (at 90.805 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+VDC" (at 90.805 35.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 90.805 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 90.805 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 66f95689-8813-49b7-a199-97386c27a4d2))
-    (instances
-      (project "main"
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/e511764a-2dd7-4601-8d00-331d6dbffa9f"
-          (reference "#PWR019") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055"
-          (reference "#PWR044") (unit 1)
-        )
-        (path "/cb08c644-d155-44e5-86e1-31645eace055/f348e705-e1f2-401a-94bd-812b815f83a8/83cdc139-f19f-4702-871a-4a75f5a0616b"
-          (reference "#PWR0116") (unit 1)
         )
       )
     )
