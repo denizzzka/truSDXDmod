@@ -770,7 +770,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 94933a04-9026-4216-8a22-35e811ffbdde)
   )
-  (hierarchical_label "QSD_EN" (shape input) (at 83.185 95.885 180) (fields_autoplaced)
+  (hierarchical_label "ENABLE" (shape input) (at 83.185 95.885 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bf87f60a-51e9-47c6-846b-c995c0e749aa)
   )

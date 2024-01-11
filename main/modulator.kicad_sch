@@ -572,7 +572,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 993ff8f1-ac5b-4363-875b-e2317c187c58)
   )
-  (hierarchical_label "QSE_EN" (shape input) (at 165.735 113.03 0) (fields_autoplaced)
+  (hierarchical_label "ENABLE" (shape input) (at 165.735 113.03 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a1495c95-ab9c-494d-abd1-f32cba403dc4)
   )
