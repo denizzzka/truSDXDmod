@@ -351,6 +351,10 @@
       "Power supply"
     ],
     [
+      "a00e2fe3-8fb5-4127-b32d-290a96cb9615",
+      "DC-DC Booster"
+    ],
+    [
       "4915e89a-92e7-41e4-b5fe-08d0dd89342c",
       "Filters"
     ],
@@ -381,10 +385,6 @@
     [
       "1c6ca288-8a52-4fd4-8d7a-75fe48075adc",
       "30 MHz LPF"
-    ],
-    [
-      "6adb75eb-c8b3-4528-8354-bbd7827d10ad",
-      "DC-DC Booster"
     ]
   ],
   "text_variables": {}
