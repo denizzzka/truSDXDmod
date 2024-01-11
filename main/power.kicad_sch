@@ -910,11 +910,6 @@
     (uuid e39301ef-1591-4cdb-b61e-916b0c40abc9)
   )
 
-  (label "POS" (at 58.42 41.91 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 79ddfa83-1766-4662-8b65-d6019fd7ab7d)
-  )
-
   (hierarchical_label "usb_dp" (shape bidirectional) (at 128.27 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0cb18edd-c5f3-4048-9afc-a2a832dfeadb)
